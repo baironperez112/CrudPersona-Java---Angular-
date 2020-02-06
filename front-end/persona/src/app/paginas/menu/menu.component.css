@@ -1,0 +1,91 @@
+/**
+css para el filtro
+*/
+.example-header {
+    min-height: 64px;
+    padding: 8px 24px 0;
+    background: rgb(252, 252, 252);
+}
+
+/**
+css para la table
+*/
+.table {
+    width: 90%;
+}
+
+/**
+css para el inut del filtro
+*/
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+  
+/**
+css para los espacios de los campos
+*/
+.cam1{
+    width: 1%;
+    padding-left: 50px;
+}
+.cam2{
+    width: 1%;
+}
+.cam3{
+    width: 2%;
+}
+.cam4{
+    width: 4%;
+}
+.cam5{
+    width: 1%;
+}
+.cam6{
+    width: 1%;
+}
+.cam7{
+    width: 1%;
+}
+
+/**
+css para la accion
+*/
+.action1 {
+    color: rgb(59, 110, 204);
+}
+
+.action2 {
+    color: brown;
+}
+
+/**
+css para el mat-Card
+*/
+.mat-card{
+    text-align: center;
+    background: #36ccb3;
+    width: 98%;
+    color: antiquewhite;
+}
+
+/**
+css para los botones de vender
+*/
+.btnVender{
+    background: rgb(235, 66, 117) ;
+    color: floralwhite;
+    margin-left: 4cm;
+}
+.btningresar{
+    background: rgb(36, 194, 97) ;
+    color: floralwhite;
+    margin-left: 1.5cm;
+}
+
+/**
+css para el baner azul
+*/
+.cardfondo{
+    background: #0c103bf5;
+}

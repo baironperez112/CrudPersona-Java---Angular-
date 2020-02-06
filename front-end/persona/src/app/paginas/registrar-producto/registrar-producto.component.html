@@ -1,0 +1,30 @@
+
+
+  <div> 
+    
+    <div [hidden]="true">
+    <label for="id">id</label>
+    <input name="id"  type="text"  required [(ngModel)]="id"/>
+    </div>
+
+    <label for="nombres">nombres</label>
+    <input name="nombres"  type="text"  required [(ngModel)]="nombres"/>
+  
+    <label for="apellidos">apellidos</label>
+    <input name="apellidos" type="text"  required [(ngModel)]="apellidos"/>
+
+    <br><br>
+    <label for="cedula">cedula</label>
+    <input name="cedula" type="text"  required [(ngModel)]="cedula"/>
+    <br><br>
+    <label for="genero">genero</label>
+    <input name="genero" type="text"  required [(ngModel)]="genero"/>
+
+    <label for="edad">edad</label>
+    <input name="edad" type="text"  required [(ngModel)]="edad"/>
+
+    <br><br>
+    <button class="button" mat-raised-button color="accent" (click)="registrarProducto()">Registrar</button>
+    <br><br>
+
+</div> 

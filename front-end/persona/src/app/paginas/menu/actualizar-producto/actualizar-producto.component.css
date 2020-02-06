@@ -1,0 +1,9 @@
+/**
+css para el mat-Card
+*/
+.mat-card{
+    text-align: center;
+    background: #192a4e;
+    width: 98%;
+    color: antiquewhite;
+}

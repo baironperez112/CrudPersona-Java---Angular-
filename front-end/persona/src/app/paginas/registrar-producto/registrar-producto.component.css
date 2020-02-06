@@ -1,0 +1,39 @@
+.example-container{
+  display: flex;
+  flex-direction: column;
+}
+.example-container{
+  width: 40%;
+}
+.example-space{
+  flex: 1 1 auto;
+}
+.example-container.mat-card {
+  text-align: center;
+  background: rgb(247, 248, 180);
+  width: 98%;
+}
+.mat-card {
+  text-align: center;
+  background: rgba(247, 245, 138, 0.466);
+  width: 98%;
+  color: rgb(12, 16, 34);
+}
+.table {
+  margin: auto;
+  width: 90%;
+}
+.log{
+  width: 100%;
+}
+.button {
+  width: 30%;
+  border: 2px;
+  left: 10%;
+}
+.muestraid{
+  display: none;
+}
+.icon{
+  color: brown;
+}

@@ -1,0 +1,48 @@
+<mat-card class="mat-card"><h3> ACTUALIZA PRODUCTO</h3></mat-card>
+<br><br>
+
+<form  [formGroup]="form" (ngSubmit)="actualizar()" #frmProducto="ngForm">
+    
+  <div>
+    <!--campo del id-->
+    <div [hidden]="false">
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="ID" required  formControlName="id">
+        </mat-form-field>
+    </div>
+
+    <!--campo de codigo-->
+    <mat-form-field class="nombres">
+        <input  matInput placeholder="nombres"  formControlName="nombres">
+    </mat-form-field>
+
+    <!--campo de nombre -->
+    <mat-form-field class="apellidos">
+        <input  matInput placeholder="apellidos"  required formControlName="apellidos">
+    </mat-form-field>
+
+    <!--campo de descrripcion-->
+    <mat-form-field class="cedula">
+        <input matInput placeholder="cedula" required formControlName="cedula">
+    </mat-form-field>
+
+    <br>
+    <!--campo de precio -->
+    <mat-form-field class="genero">
+        <input  matInput placeholder="genero"  required formControlName="genero">
+    </mat-form-field>
+
+    <!--campo de camtidad-->
+    <mat-form-field class="edad">
+        <input matInput placeholder="edad" required formControlName="edad">
+    </mat-form-field>
+
+    <!--Botones para la actualizacion-->
+    <button class="button" type="submit" mat-raised-button color="accent" >Actualizar</button>
+    
+  <br><br>
+
+  </div>
+    <br><br><br><br><br>
+
+</form>
